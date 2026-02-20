@@ -30,4 +30,3 @@ var_dump($fruits);
 var_dump($adresse);
 
 
-?>

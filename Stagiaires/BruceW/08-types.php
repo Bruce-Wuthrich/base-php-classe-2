@@ -22,4 +22,3 @@ echo "En bool : ";
 var_dump($en_bool);
 
 
-?>
