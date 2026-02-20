@@ -1,6 +1,5 @@
 <?php
 $valeur = "3.14";
-
 echo "Valeur initiale : ";
 var_dump($valeur);
 echo "<br><br>";
