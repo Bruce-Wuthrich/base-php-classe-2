@@ -1,18 +1,34 @@
 <?php
 
-$nom = "Mike";
-$age = 30;
-$taille = 1.75;
-$estEtudiant = true;
-$cours = ["Math", "Physique", "Chimie"];
+$nom = "Mike"; // string
+$age = 30;// integer
+$taille = 1.75;// float
+$estEtudiant = true;// boolean
+$cours = ["Math", "Physique", "Chimie"];// array (indexé)
 $professeur = [
     "titre" => "Mr Pitz",
     "matiere" => "Informatique",
-];
+];// array (associtive)
 $etudiants = [
-    ["nom" => "Alice", "age" => 22],
-    ["nom" => "Bob", "age" => 24],
-    ["nom" => "Charlie", "age" => 21]
-];
+    [
+        "nom" => "Alice",
+        "age" => 22, 
+        "cours"=>["Mathématique"],
+    ],
+    [
+        "nom" => "Bob",
+        "age" => 24,
+        "cours"=>[
+            "Mathématique",
+            "Français"
+        ]
+    ],
+    [
+        "nom" => "Charlie",
+        "age" => 21, 
+        "cours"=>["Latin"]
+    ],
+
+];// tableau multidimentionel
 $description = null;
-var_dump($nom, $age, $taille, $estEtudiant, $cours, $professeur, $etudiants, $cours, $description);
+var_dump($nom, $age, $taille, $estEtudiant, $cours, $professeur, $etudiants, $cours, $description,$_GET);
