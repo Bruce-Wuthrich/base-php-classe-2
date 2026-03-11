@@ -1,5 +1,6 @@
 <?php
 // Données
+
 $arrayData = [
     'about'=> [
         'Title' => "A propos",
