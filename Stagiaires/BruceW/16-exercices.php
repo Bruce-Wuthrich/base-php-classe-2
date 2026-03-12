@@ -13,5 +13,5 @@ for ($i = 10; $i >= 0; $i--) {
 
 for ($i = 1; $i <= 10; $i++) {
     $resultat = 7 * $i;
-    echo "7 × $i = $resultat";
+    echo "7 × {$i} = {$resultat}<br>";
 }
